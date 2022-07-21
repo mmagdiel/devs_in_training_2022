@@ -1,6 +1,7 @@
 import unittest
 from problems.problem_01 import show_any_number_distinc_zero
 
+
 class ShowAnyNumberZeroTestCase(unittest.TestCase):
     def test_simple_case(self):
         excepted = [1,2,3,3]
