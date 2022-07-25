@@ -1,5 +1,14 @@
 '''
     Diseñar una función que tome tres medidas en centímetros como entrada y devuelva el volumen en litros.
 '''
+from unittest import result
+
+
+number_1 = 0
+number_2 = 10
+number_3 = 3
 def get_volumen_on_liters(number_1, number_2, number_3):
-    pass
+    cmCubicos= number_1 * number_2 * number_3
+    result = cmCubicos / 1000
+    print(result)
+get_volumen_on_liters(number_1,number_2,number_3)    
