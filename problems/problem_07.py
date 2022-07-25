@@ -4,5 +4,6 @@
     tiempo del corredor; por cada corredor. Se debe retornar el tiempo en segundos, así como la velocidad media. 
     Ejemplo de entrada de datos: [(3,53) (3,40) (3,46) (3,52) (4,0)]
 '''
+
 def calcule_time_and_velocity(lista):
     pass
