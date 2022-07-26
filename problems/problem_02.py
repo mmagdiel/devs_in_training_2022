@@ -8,4 +8,13 @@
     - El último divisor es el mcd.
 '''
 def MCD(number_1, number_2):
-    pass
+    if  number_1 == str(number_1) or number_2 == str(number_2):
+        return 0
+    if number_1<number_2:
+        return MCD(number_2,number_1)
+    elif (number_2==0):
+     return number_1
+    else:
+        return MCD(number_2,number_1%number_2)
+  
+    
