@@ -25,7 +25,7 @@ class GetPrimesLessOrEqualThanTestCase(unittest.TestCase):
         self.assertEqual(result, excepted)
 
     def test_negative_times_case(self):
-        excepted = [2,3]
+        excepted = []
         result = get_primes_less_or_equal_than(-3.1416)
         self.assertEqual(result, excepted)
 
