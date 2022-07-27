@@ -5,13 +5,14 @@
 from unittest import result
 
 
-amount =200
-rate = 0.1
+
 def get_taxes_by_amount_and_rate(amount, rate):
     
-  centavos = amount * 100
-  result = centavos * rate
 
-  print(int(result))
+  if amount == str(amount) or rate == str(rate):
+    return(0)
+  else: 
+   centavos = amount * 100
+   result = centavos * rate
+   return(int(result))
 
-get_taxes_by_amount_and_rate(amount,rate)  

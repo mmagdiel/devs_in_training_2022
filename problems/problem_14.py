@@ -14,7 +14,7 @@ def get_count_by_char(word):
    
     listWord1 = list(word)
    
-    freq = listWord1.count("m")
+    freq = listWord1.count("m",'o')
     
 
     print(freq,", m")

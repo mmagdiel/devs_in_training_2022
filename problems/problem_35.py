@@ -10,5 +10,20 @@
     Diseñe una funció que calcule el sueldo semanal de un trabajador cualquiera de esta
     fábrica
 '''
+
+
 def get_salary(base, hour_extraordinary_daytime, hour_extraordinary_nighttime):
-    pass
+ hourExtPrice = base
+ hourExtPriceNight = 2000 * 1.3
+ if base == str(base) or hour_extraordinary_daytime == str(hour_extraordinary_daytime) or hour_extraordinary_nighttime == str(hour_extraordinary_nighttime):
+   return(0)
+ elif base < 0 or hour_extraordinary_daytime < 0  or hour_extraordinary_nighttime < 0:
+    return(0)
+ elif hour_extraordinary_daytime == 0 and hour_extraordinary_nighttime == 0:
+    return(base)   
+ elif hour_extraordinary_daytime > 0 or hour_extraordinary_nighttime >0:
+    total1 = hour_extraordinary_nighttime * hourExtPriceNight
+    total2 = hour_extraordinary_daytime * hourExtPrice
+    totalFinal = total1 + total2
+    return(totalFinal)   
+   

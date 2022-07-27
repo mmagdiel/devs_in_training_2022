@@ -8,7 +8,7 @@ number = 9
 def get_three_multiple_inverse_list(number):
   
   for numero in range(1, number+1):
-    if(number % numero  == 0):
+    if(number % numero  == 1):
 
      print(numero)   
        
