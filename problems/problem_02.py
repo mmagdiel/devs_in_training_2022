@@ -7,5 +7,13 @@
     el último resto hasta que la división sea exacta.
     - El último divisor es el mcd.
 '''
-def MCD(number_1, number_2):
-    pass
+def MCD(number_1, number_2):     
+    if number_1 == str(number_1) or number_2 == str(number_2):
+        return 0
+    while True: 
+        residuo = number_1 % number_2
+        if residuo == 0:
+            return number_2
+        else:
+            number_1 = number_2
+            number_2 = residuo

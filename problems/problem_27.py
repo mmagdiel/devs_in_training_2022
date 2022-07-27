@@ -3,4 +3,7 @@
     Considere que: 1 pie = 30.48 centímetros
 '''
 def convert_foot(unit):
-    pass
+    if type(unit)==list or unit== str(unit) or unit <= 0:
+        return 0
+    total=(unit*30.48)/1
+    return total
