@@ -18,4 +18,8 @@ def sum_multiples_of_three(number):
         while x <= number:
             contador= x + contador
             x=x + 3
+<<<<<<< HEAD
         return contador
+=======
+        return contador
+>>>>>>> f58643996cf48eb57ffc5a5e43bc21bd4d7d0455
