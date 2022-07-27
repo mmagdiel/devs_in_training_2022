@@ -8,7 +8,7 @@ class GetLenghtAndAreaCirculeTestCase(unittest.TestCase):
         self.assertEqual(result, excepted)
 
     def test_complex_case(self):
-        excepted = [1.99994256, 0.99997128]
+        excepted = [2, 0.3183]
         result = get_lenght_and_area_circule(0.3183)
         self.assertEqual(result, excepted)
 

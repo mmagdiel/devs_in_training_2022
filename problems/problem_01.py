@@ -8,7 +8,6 @@ from ast import List
 from contextlib import nullcontext
 from os import remove
 from pickle import APPEND
-import string
 
 
 
@@ -28,7 +27,7 @@ def show_any_number_distinc_zero(list):
     lista1.append(len(lista1))
     return(lista1)
     break
-
+      
   
  
 

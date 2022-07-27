@@ -27,7 +27,7 @@ class GetEmployeeSalaryTestCase(unittest.TestCase):
         self.assertEqual(result_1, excepted)   
 
     def test_negative_times_case(self):
-        excepted = 3.1416
+        excepted = 0
         excepted_1 = -23
         result = get_employee_salary(3.1416, [-2,-5,8])
         result_1 = get_employee_salary(-23, [1,0])
