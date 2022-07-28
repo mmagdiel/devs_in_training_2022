@@ -1,0 +1,15 @@
+{% extends './layout.html' %} {% block title %} {{ data.title }} {% endblock %}
+{% block body %}
+<h1>{{ data.hero }}</h1>
+<h3>{{ data.sub_hero }}</h3>
+{% if data.number > 0 %}
+<ul>
+  {% for topic in data.topics %}
+  <li>
+    <a href="{{ topic.url }}" target="_blank">{{ topic.title}}</a>
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<h2>No existen cursos...</h2>
+{% endif %} {% endblock %}
