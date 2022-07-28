@@ -4,4 +4,20 @@
     relativos si no tienen divisores comunes excepto la unidad
 '''
 def are_primes_relatives(number_1,number_2):
-    pass
+    
+    if (number_1):
+
+        primo_1 = number_1 / 1
+
+        return primo_1
+
+    else:
+
+        (number_2)
+
+        primo_2 = number_2 / 1
+
+        return primo_2
+
+
+

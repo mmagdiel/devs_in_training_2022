@@ -4,4 +4,4 @@
     y calcular el capital total acumulado al final del período de tiempo especificado.
 '''
 def get_compound_interest(amount, rate, duration):
-    pass
+    

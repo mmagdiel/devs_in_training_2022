@@ -5,5 +5,24 @@
     pero si el trabajador labora más de 40 horas, su valor hora para las horas sobre 40, se
     incrementa en el 60% de su valor.
 '''
+sueldo = 0
+
 def get_salary(hours,rate):
-    pass
+    
+    if (hours < 40):
+        
+        sueldo = hours * rate
+    
+        return sueldo
+
+    else:
+        (hours > 40)
+
+        valor_hora_trabajada = ((rate * 60) / 100)
+
+        valor_hora_extra = (valor_hora_trabajada + rate)
+
+        salario_mensual_total = (valor_hora_extra * hours)
+
+    return salario_mensual_total
+

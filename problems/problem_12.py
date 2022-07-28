@@ -3,4 +3,11 @@
     Un palíndromo es una palabra que se lee igual en ambos sentidos como “radar”.
 '''
 def is_palindrome(word):
-    pass
+    
+    while True:
+    
+        palindromo = len(word)[::-1]
+
+        if len(word) == palindromo:
+
+            return palindromo
