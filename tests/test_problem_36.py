@@ -3,7 +3,7 @@ from problems.problem_36 import swap_vars
 
 class SwapVvarsTestCase(unittest.TestCase):
     def test_simple_case(self):
-        excepted = [100,300]
+        excepted = [300,100]
         result = swap_vars(100,300)
         self.assertEqual(result, excepted)
 

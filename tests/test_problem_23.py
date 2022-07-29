@@ -9,7 +9,7 @@ class GetSalaryTestCase(unittest.TestCase):
         self.assertEqual(result, excepted)
 
     def test_complex_case(self):
-        excepted = 680
+        excepted = 720
         result = get_salary(60,10)
         self.assertEqual(result, excepted)
 
