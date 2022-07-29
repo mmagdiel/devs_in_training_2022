@@ -15,10 +15,11 @@ class GetModeTestCase(unittest.TestCase):
 
     def test_zero_case(self):
         excepted = "No existe"
+        excepted_1 = [1,2,3,4,5]
         result = get_mode([])
         result_1 = get_mode([1,2,3,4,5])
         self.assertEqual(result, excepted)   
-        self.assertEqual(result_1, excepted)   
+        self.assertEqual(result_1, excepted_1)
 
     def test_string_case(self):
         excepted = "No existe"
