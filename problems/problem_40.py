@@ -3,4 +3,12 @@
     Esto es llamada la traza de una matriz.
 '''
 def get_trace(matriz):
-    pass
+    acumulador=0
+    for x in matriz:
+        n=x
+        for el in n:
+            if type(el)==bool or type(el)==str or type(el)==type({"abc":123}):
+                return 0
+    for i in range(len(matriz)):
+        acumulador=acumulador+matriz[i][i]
+    return acumulador
