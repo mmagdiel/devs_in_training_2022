@@ -13,4 +13,19 @@
     efectuó en el mes, calcule y muestre el sueldo mensual que le corresponde.
 '''
 def get_salary(base, sellers):
-    pass
+    if base == str(base) or sellers == str(sellers):
+        return 0
+    if base < 0 or sellers < 0:
+        return 0
+    sueldo_mensual=0
+    comision=0
+    if sellers < 4000000:
+        return(base)
+    elif sellers >4000000 and sellers < 10000000:
+        comision = (3 * sellers)/100
+        sueldo_mensual = base + comision
+        return(sueldo_mensual)
+    elif sellers >= 10000000:
+        comision = (7 * sellers)/100
+        sueldo_mensual = base + comision
+        return(sueldo_mensual)

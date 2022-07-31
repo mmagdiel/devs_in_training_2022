@@ -10,7 +10,7 @@ def get_salary(sales):
     if sales==str(sales):
         return sueldo_b
     for x in sales:
-        if type(x)==type("x") or x<0:
+        if type(x)==str or x<0:
             return sueldo_b
     for el in sales:
         suma=suma+el

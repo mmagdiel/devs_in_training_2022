@@ -3,6 +3,8 @@
     Esto es llamada la traza de una matriz.
 '''
 def get_trace(matriz):
+    if len(matriz)<=1:
+        return 1
     acumulador=0
     for x in matriz:
         n=x
@@ -12,3 +14,4 @@ def get_trace(matriz):
     for i in range(len(matriz)):
         acumulador=acumulador+matriz[i][i]
     return acumulador
+

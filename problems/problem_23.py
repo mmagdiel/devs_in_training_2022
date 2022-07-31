@@ -14,5 +14,7 @@ def get_salary(hours,rate):
     if hours<40:
         return smensual
     else:
-        vextra=smensual*60/100+smensual
+        hextra=hours-40
+        porcentaje=60*rate/100
+        vextra=porcentaje*hextra+smensual
         return vextra

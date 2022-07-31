@@ -22,3 +22,4 @@ def get_salary(base, hour_extraordinary_daytime, hour_extraordinary_nighttime):
     horaextranoc=hour_extraordinary_nighttime*(2000*1.3)
     semanasueldo=sueldo+horaextradia+horaextranoc
     return(semanasueldo)
+    

@@ -12,3 +12,4 @@ def get_center_number(number_1, number_2, number_3):
             return(number_2)
     elif number_3>=number_1 and number_3<=number_2 or number_3<=number_1 and number_3>=number_2:
             return(number_3)
+            
