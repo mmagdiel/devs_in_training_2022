@@ -4,7 +4,7 @@ from problems.problem_33 import get_gender_percentage
 class GetGenderPercentageTestCase(unittest.TestCase):
     def test_simple_case(self):
         excepted = [50,50]
-        excepted_1 = [66.66, 33.33]
+        excepted_1 = [66.67, 33.33]
         result = get_gender_percentage(1,1)
         self.assertEqual(result, excepted)
         result_1 = get_gender_percentage(2,1)
