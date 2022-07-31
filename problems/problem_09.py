@@ -4,5 +4,7 @@
 def get_triangle_area(base, height):
     if  base == str(base) or height==str(height):
         return 0
+    if base<0 or height<0:
+        return 0
     area=(base*height)/2
     return area

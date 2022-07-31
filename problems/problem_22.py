@@ -16,3 +16,4 @@ def are_primes_relatives(number_1,number_2):
             return False
         contador=contador+1
     return True
+    

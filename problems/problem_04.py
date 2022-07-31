@@ -19,5 +19,3 @@ def sum_multiples_of_three(number):
             contador=i+contador
             i=i+3
         return contador
-        #print(contador)    
-      

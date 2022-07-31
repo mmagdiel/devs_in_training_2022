@@ -13,3 +13,4 @@ def mcm(number_1, number_2):
             mcm=i
             return mcm
         i+=1
+        

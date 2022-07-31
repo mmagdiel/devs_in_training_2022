@@ -10,6 +10,9 @@
 def MCD(number_1, number_2):
     if  number_1 == str(number_1) or number_2 == str(number_2):
         return 0
+    if  type(number_1)== type(1.2) or type(number_2) == type(1.2):
+        number_1=int(number_1)
+        number_2=int(number_2)    
     if number_1<number_2:
         return MCD(number_2,number_1)
     elif (number_2==0):

@@ -16,3 +16,4 @@ def get_lenght_and_area_circule(radio):
     lista.append(longitud2)
     lista.append(area2)
     return(lista)
+    

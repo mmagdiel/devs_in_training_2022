@@ -8,3 +8,4 @@ def get_taxes_by_amount_and_rate(amount, rate):
     centavos= amount* 100 
     result = centavos * rate
     return int(result)
+    
