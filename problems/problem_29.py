@@ -3,4 +3,6 @@
     minutos y segundos restan para culminar el día.
 '''
 def get_time_finish_day(day):
-    pass
+    for n in day:
+        print(n)
+        

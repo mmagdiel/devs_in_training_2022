@@ -3,6 +3,7 @@
     salón de clases. Dado la cantidad de varones y de mujeres
 '''
 def get_gender_percentage(males, females):
-    
+    total = males +females
+    print(total / males)
 
 get_gender_percentage(66.66, 33.33)    

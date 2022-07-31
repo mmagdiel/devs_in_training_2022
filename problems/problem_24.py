@@ -12,5 +12,19 @@
     Diseñe una función que ingrese el sueldo base del vendedor y el monto de las ventas que
     efectuó en el mes, calcule y muestre el sueldo mensual que le corresponde.
 '''
+
+
+
+
 def get_salary(base, sellers):
-    pass
+  comision = sellers * 0.3
+  comision2 = sellers * 0.7  
+  if base == str(base) or sellers == str(sellers) or base < 0 or sellers < 0:
+    print(0)    
+  elif sellers < 4000000:
+    print(base)
+  elif sellers > 4000000 and sellers<10000000: 
+    print(int(base + comision)) 
+  elif sellers > 10000000:
+    print(int(base + comision2))  
+get_salary(1000000,17000000)    
