@@ -25,7 +25,7 @@ def get_mode(lista):
   print(res)
   if len(res) == 1:   
    res = 2 
-   print(res)
+  print(res)
  
   
   

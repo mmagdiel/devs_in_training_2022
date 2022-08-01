@@ -3,13 +3,11 @@
 '''
 import itertools
 from ntpath import join
-word = "ana"
 
 def get_all_permutation_of_word(word):
  permutations = list(itertools.permutations(word))
  
- print(permutations)
+ return(permutations)
 
-get_all_permutation_of_word(word)
 
 

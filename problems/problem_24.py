@@ -17,14 +17,19 @@
 
 
 def get_salary(base, sellers):
-  comision = sellers * 0.3
-  comision2 = sellers * 0.7  
-  if base == str(base) or sellers == str(sellers) or base < 0 or sellers < 0:
-    print(0)    
-  elif sellers < 4000000:
-    print(base)
-  elif sellers > 4000000 and sellers<10000000: 
-    print(int(base + comision)) 
-  elif sellers > 10000000:
-    print(int(base + comision2))  
-get_salary(1000000,17000000)    
+    if base == str(base) or sellers == str(sellers):
+        return 0
+    if base < 0 or sellers < 0:
+        return 0
+    sueldo_mensual=0
+    comision=0
+    if sellers < 4000000:
+        return(base)
+    elif sellers >4000000 and sellers < 10000000:
+        comision = (3 * sellers)/100
+        sueldo_mensual = base + comision
+        return(sueldo_mensual)
+    elif sellers >= 10000000:
+        comision = (7 * sellers)/100
+        sueldo_mensual = base + comision
+        return(sueldo_mensual)
