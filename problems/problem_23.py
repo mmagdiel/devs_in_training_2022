@@ -6,4 +6,15 @@
     incrementa en el 60% de su valor.
 '''
 def get_salary(hours,rate):
-    pass
+    if  hours == str(hours) or rate == str(rate):
+        return 0
+    if hours<0 or rate<0:
+        return 0
+    smensual=hours*rate
+    if hours<40:
+        return smensual
+    else:
+        hextra=hours-40
+        porcentaje=60*rate/100
+        vextra=porcentaje*hextra+smensual
+        return vextra

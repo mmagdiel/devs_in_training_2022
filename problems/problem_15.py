@@ -3,4 +3,9 @@
     Retorne el monto del impuesto en centavos.
 '''
 def get_taxes_by_amount_and_rate(amount, rate):
-    pass
+    if  amount == str(amount) or rate==str(rate):
+        return 0
+    centavos= amount* 100 
+    result = centavos * rate
+    return int(result)
+    

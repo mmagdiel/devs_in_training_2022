@@ -23,7 +23,7 @@ class MCDTestCase(unittest.TestCase):
         self.assertEqual(result, excepted)        
 
     def test_doble_float_case(self):
-        excepted = 64
+        excepted = 8
         result = MCD(8.32, 64.85)
         self.assertEqual(result, excepted)
 
