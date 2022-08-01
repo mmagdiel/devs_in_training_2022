@@ -6,4 +6,5 @@ def convert_foot(unit):
     if type(unit)==list or unit== str(unit) or unit <= 0:
         return 0
     total=(unit*30.48)/1
-    return total
+    total2=round(total,3)
+    return total2
