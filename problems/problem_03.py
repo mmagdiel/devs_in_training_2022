@@ -3,11 +3,11 @@ Escribir una función para determinar el mínimo común múltiplo de dos número
 '''
 
 def mcm(number_1, number_2):
-    num1_org = 10
-    num2_org = 15
+    num1_org = []
+    num2_org = []
     
-    num1 = 10
-    num2 = 15
+    num1 = []
+    num2 = []
     divisor = 2
     mcm = 1
     while num1!=1 or num2!=1:
@@ -22,4 +22,4 @@ def mcm(number_1, number_2):
             mcm = mcm*divisor
         else:
             divisor+=1
-        print(f"El minimo comun multiplo entre {num1_org} y {num2_org} es {mcm}")
+        return(f"El minimo comun multiplo entre {num1_org} y {num2_org} es {mcm}")

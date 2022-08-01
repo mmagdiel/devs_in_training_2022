@@ -6,5 +6,5 @@ una "t" y una "e" .
 def get_count_by_char(word):
     nombres = ['']
     resultado = list(map(lambda n: n.count('a'), nombres))
-    print(resultado)
-get_count_by_char("Proyecto") 
+    return(resultado)
+return(nombres, resultado) 

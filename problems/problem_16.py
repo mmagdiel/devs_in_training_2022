@@ -15,4 +15,4 @@ def fizzbuzz(number):
 
 if __name__ == '__main__':
     sequence = '\n'.join(fizzbuzz(number) for number in range(15))
-    print(sequence)  
+    return(sequence) 

@@ -5,7 +5,7 @@ def is_even(number):
     def is_even(number):
     number = int(input("Ingresa un número: "))
     if number % 2 == 0:
-        print("El número es par")
+        return("El número es par")
     else:
-        print("El número es impar")
-is_even(8)  
+        return("El número es impar")
+return(number)        

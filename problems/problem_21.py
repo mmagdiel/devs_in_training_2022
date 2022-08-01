@@ -1,4 +1,4 @@
-''''
+ '''
     Diseñar una función que retorne todas las permutaciones de una cadena de texto dada
 '''
 def string_permutations(s, i, n): 
@@ -12,4 +12,4 @@ def string_permutations(s, i, n):
 a = "day"
 x = len(a) 
 s = list(a) 
-print(a,x,s)
+return(a,x,s)

@@ -1,3 +1,4 @@
+
 '''
     Diseñar una función que indique si una palabra leída del teclado es un palíndromo. 
     Un palíndromo es una palabra que se lee igual en ambos sentidos como “radar”.
@@ -10,6 +11,6 @@ def is_palindrome(word):
         igual += 1
       aux += 1
     if len(texto) == igual:
-      print("El texto es palindromo!")
+      return("El texto es palindromo!")
     else:
-      print("El texto no es palindromo!")
+      return("El texto no es palindromo!")

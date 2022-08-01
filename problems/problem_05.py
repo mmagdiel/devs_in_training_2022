@@ -10,10 +10,10 @@ for i in range (1, 5):
     un_numero = (input ('Ingresa el valor de un numero: '))
     try:
         un_numero=int(un_numero)
-        if i==1 or mayor<un_numero:
+        if i==1 or mayor<un_numero:ñ
             mayor=un_numero
     except:
         mayor=0
         break
     print ()
-print ('Valor de mayor: ' + repr (mayor))
+return ('Valor de mayor: ' + repr (mayor))

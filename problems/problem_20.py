@@ -9,10 +9,10 @@ def get_mode(lista):
     modas = {k:v for k, v  in valores.items() if v == maximo}
     
     if len(modas) == 1:
-        print(f"La moda es {list(modas)[0]}, con {maximo} ocurrencias")
+        return(f"La moda es {list(modas)[0]}, con {maximo} ocurrencias")
     else:
-        print("Las modas son: ")
+        return("Las modas son: ")
         for k in modas.keys():
-            print(f"Moda {k}, con {maximo} ocurrencias")
-get_mode(1)
+            return(f"Moda {k}, con {maximo} ocurrencias")
+return(lista)
    

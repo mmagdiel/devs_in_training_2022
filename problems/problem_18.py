@@ -8,5 +8,5 @@ def get_three_multiple_inverse_list(number):
     for i in range(1,number+1):  
      if i%2==0 and i%3==0:  
       c+=1  
-      print(i)  
-get_three_multiple_inverse_list(8)
+      return(i)  
+return(number)

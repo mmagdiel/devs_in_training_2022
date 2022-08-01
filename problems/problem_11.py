@@ -19,9 +19,9 @@ if antiguedad_en_anos>=10:
 else:
     bonificacion=0
 salario_neto=salario_bruto-impuesto+bonificacion
-print ('Valor de bonificacion: ' + repr (bonificacion))
-print ('Valor de impuesto: ' + repr (impuesto))
-print ('Valor de pago por hora: ' + repr (pago_por_hora))
-print ('Valor de salario bruto: ' + repr (salario_bruto))
-print ('Valor de salario neto: ' + repr (salario_neto))
-print ()
+return ('Valor de bonificacion: ' + repr (bonificacion))
+return ('Valor de impuesto: ' + repr (impuesto))
+return ('Valor de pago por hora: ' + repr (pago_por_hora))
+return ('Valor de salario bruto: ' + repr (salario_bruto))
+return ('Valor de salario neto: ' + repr (salario_neto))
+return ()

@@ -10,6 +10,5 @@ def get_compound_interest(amount, rate, duration):
      
     x = (pesos * (1 + interes/100) ** semana)
      
-    print('El capita total al cabo de %d semanas sera de %.2f' %(semana,x))
-get_compound_interest(4,4,5)
-
+    return('El capita total al cabo de %d semanas sera de %.2f' %(semana,x))
+return(pesos,interes,semana)
