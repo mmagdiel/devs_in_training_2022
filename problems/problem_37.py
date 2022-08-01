@@ -3,4 +3,19 @@
     Calcule los número de fibonacci para un n dado.
 '''
 def get_fibonacci(number):
-    pass
+    m=1
+    f=1
+    if number==1:
+        return('0')
+    elif number==2:
+        return('0','1')
+    elif type(number) == type(float()) or type(number) == type(str()) or type(number) == type(dict()): 
+        return([])        
+    else:
+        lista=[]
+    for i in range(number-2):
+         total = m + f
+         m=f
+         f= total
+         lista.append("1","1",total)
+    return(lista) 
