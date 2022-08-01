@@ -8,6 +8,8 @@ from typing import Counter
 
 from typing import Counter
 
+from requests import get
+
 def get_mode(lista):
  res = "No Existe" 
  test_list1 = Counter(lista)
@@ -23,9 +25,8 @@ def get_mode(lista):
      res.append(l)
      res = list(set(res))
   print(res)
-  if len(res) == 1:   
-   res = 2 
-  print(res)
+ 
+get_mode([2,2,3,4,5,6,5,6,2])  
  
   
   

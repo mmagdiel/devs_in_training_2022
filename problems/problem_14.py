@@ -12,9 +12,7 @@ from tracemalloc import start
 word="mortimer"
 def get_count_by_char(word):
    
-    listWord1 = list(word)
-   
-   # freq = listWord1.count("m",'o')
+    
     
 
     return([])
