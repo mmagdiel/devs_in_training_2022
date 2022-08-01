@@ -3,7 +3,7 @@ from problems.problem_34 import get_stats
 
 class GetStatsTestCase(unittest.TestCase):
     def test_simple_case(self):
-        excepted = [6,14,2,0.8164]
+        excepted = [6,14,2,0.816]
         result = get_stats([1,2,3])
         self.assertEqual(result, excepted)
 
@@ -13,7 +13,7 @@ class GetStatsTestCase(unittest.TestCase):
         self.assertEqual(result, excepted)
 
     def test_with_more_comission_case(self):
-        excepted = [0,2,0.5,0.707]
+        excepted = [0,2,0,0.707]
         result = get_stats([1,-1,0,0])
         self.assertEqual(result, excepted)
 
