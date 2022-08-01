@@ -7,7 +7,7 @@ def is_palindrome(word):
     frase = word.replace(' ', '')
     longitud = len(frase)
     if type(word) == type(int()):
-        return(False)
+        print(False)
     elif longitud % 2 == 0:
         izquierda = word[:longitud // 2]
         derecha = word[longitud // 2:]
@@ -15,5 +15,6 @@ def is_palindrome(word):
         izquierda = word[:longitud // 2]
         derecha = word[longitud // 2 + 1:]
     
-    return(izquierda == derecha[::-1])
+    print(izquierda == derecha[::-1])
+is_palindrome("12321")    
     
