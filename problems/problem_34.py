@@ -12,15 +12,17 @@ def get_stats(numbers):
     suma = 0
     suma2=0
     promedio=0
-    st_dev=0
+    varianza=0
+    redondeo=0
     lista2=[]
     for el in numbers:
         suma = el + suma
         suma2 = el**2+suma2
         promedio = suma / len(numbers)
-        st_dev = statistics.pstdev(numbers)
+        varianza = statistics.pstdev(numbers)
+        redondeo=round(varianza,3)
     lista2.append(suma)
     lista2.append(suma2)
     lista2.append(promedio)
-    lista2.append(st_dev)
+    lista2.append(redondeo)
     return(lista2)

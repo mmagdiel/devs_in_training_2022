@@ -4,15 +4,14 @@
     Diseñe una función que dado una lista de ventas determine el sueldo neto de un vendedor
 '''
 def get_salary(sales):
-    sueldo_b=1000000
-    sueldo_n=0
+    sueldo_base=1000000
     suma=0
     if sales==str(sales):
-        return sueldo_b
+        return sueldo_base
     for x in sales:
         if type(x)==str or x<0:
-            return sueldo_b
+            return sueldo_base
     for el in sales:
         suma=suma+el
     comision= 12 * suma / 100
-    return(comision+sueldo_b)
+    return(comision+sueldo_base)

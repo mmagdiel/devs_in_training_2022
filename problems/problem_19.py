@@ -4,4 +4,10 @@
     y calcular el capital total acumulado al final del período de tiempo especificado.
 '''
 def get_compound_interest(amount, rate, duration):
-    pass
+    list=[]
+    if amount==str(amount) or rate==str(rate) or duration==str(duration):
+        return 0
+    if type(amount)==type(list) or type(rate)==type(list) or type(duration)==type(list):
+        return 0
+    total_capital=amount*(1+rate)**duration
+    return total_capital

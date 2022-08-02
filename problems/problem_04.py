@@ -7,15 +7,15 @@ def sum_multiples_of_three(number):
         return 0
     elif number < 0: 
         i=-3
-        contador=0
+        cont=0
         while i >= number:
-            contador=i+contador
+            cont=i+cont
             i=i-3
-        return contador
+        return cont
     else:
         i=3
-        contador=0
+        cont=0
         while i <= number:
-            contador=i+contador
+            cont=i+cont
             i=i+3
-        return contador
+        return cont
