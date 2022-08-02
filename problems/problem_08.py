@@ -8,11 +8,11 @@ def get_primes_less_or_equal_than(number):
         return []
     list=[]
     contador=0
-    for i in range(1,number+1):
+    for f in range(1,number+1):
         contador=0
-        for j in range(1,number+1):
-            if i%j==0:
+        for c in range(1,number+1):
+            if f%c==0:
                 contador+=1
         if contador==2:
-            list.append(i)
+            list.append(f)
     return(list)

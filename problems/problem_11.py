@@ -8,8 +8,8 @@ def get_employee_salary(rate, worked_hours):
     if worked_hours==list(str(worked_hours)):
             return 0
     suma=0
-    for el in worked_hours:
-        if el=="ipsum":
+    for ele in worked_hours:
+        if ele=="ipsum":
             return 0
     for i in worked_hours:
         suma = i+suma

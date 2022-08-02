@@ -13,7 +13,7 @@ def get_roman_notation(number):
     numeral = ''
     i = 0
     while number > 0:
-        for _ in range(number // numeros[i]):
+        for l in range(number // numeros[i]):
             numeral += numerales[i]
             number -= numeros[i]
         i += 1

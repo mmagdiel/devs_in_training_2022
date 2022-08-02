@@ -5,7 +5,7 @@
 def get_taxes_by_amount_and_rate(amount, rate):
     if  amount == str(amount) or rate==str(rate):
         return 0
-    centavos= amount* 100 
-    result = centavos * rate
+    centavos_impuesto= amount* 100 
+    result = centavos_impuesto * rate
     return int(result)
     

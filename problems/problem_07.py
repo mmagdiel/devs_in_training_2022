@@ -5,4 +5,17 @@
     Ejemplo de entrada de datos: [(3,53) (3,40) (3,46) (3,52) (4,0)]
 '''
 def calcule_time_and_velocity(lista):
-    pass
+    lista=[]
+    i=0
+    tupla=(3,53)
+    velocidad=0
+    tiempo=0
+    distancia = 1500
+    minutos=3
+    segundos=53
+    tiempo = minutos * 60 + segundos
+    velocidad = distancia / tiempo
+    while i<len(tupla):
+        lista.append(tupla)
+        i+=0
+    print(lista)

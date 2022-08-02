@@ -19,7 +19,7 @@ def get_pesos_donations(suns, dolars, marks):
     pesos = f_dolares * 2.15
     centro_salud = (pesos * 55) / 100
     comedor = (pesos * 35) / 100
-    admin = (pesos * 10) / 100
+    administacion = (pesos * 10) / 100
     lista.append(round(centro_salud,4))
     lista.append(comedor)
     return lista
