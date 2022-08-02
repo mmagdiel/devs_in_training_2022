@@ -4,7 +4,7 @@
 '''
 def get_fibonacci(number):
     m=1
-    f=1
+    f=0
     if number==1:
         return('0')
     elif number==2:
@@ -13,9 +13,9 @@ def get_fibonacci(number):
         return([])        
     else:
         lista=[]
-    for i in range(number-2):
+    for i in range(number):
          total = m + f
          m=f
          f= total
-         lista.append("1","1",total)
-    return(lista) 
+         lista.append(total)
+    return(lista)

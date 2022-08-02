@@ -8,4 +8,4 @@ def get_compound_interest(amount, rate, duration):
     if amount==str(amount) or rate==str(rate) or duration==str(duration) or type(amount)==type(list) or type(rate)==type(list) or type(duration)==type(type):
         return 0
     capital_total= amount*(1+rate)**duration
-    return capital_total
+    return (round(capital_total,2))
