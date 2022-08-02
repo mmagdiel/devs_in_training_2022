@@ -8,12 +8,12 @@ def show_any_number_distinc_zero(list):
     if list == str(list):
         return [0]
     contador =0
-    lista2=[]
-    for n in list:
-        if n != 0:
+    lista=[]
+    for numero in list:
+        if numero != 0:
             contador = contador+1
-            lista2.append(n)
-        elif n == 0:
-            lista2.append(contador)
-            return lista2
+            lista.append(numero)
+        elif numero == 0:
+            lista.append(contador)
+            return lista
             break

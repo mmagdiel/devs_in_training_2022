@@ -9,5 +9,5 @@ def get_compound_interest(amount, rate, duration):
         return 0
     if type(amount)==type(list) or type(rate)==type(list) or type(duration)==type(list):
         return 0
-    cap_total=amount*(1+rate)**duration
-    return cap_total
+    capital_total=amount*(1+rate)**duration
+    return capital_total

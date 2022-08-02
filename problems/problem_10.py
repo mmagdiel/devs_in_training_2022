@@ -6,8 +6,6 @@ def get_lenght_and_area_circule(radio):
         return [0,0]
     if radio<0:
         return [0,0]
-    longitud = 0
-    area = 0
     lista=[]
     longitud = (2*3.1416)*radio
     longitud2=round(longitud,4)

@@ -11,4 +11,14 @@
     fábrica
 '''
 def get_salary(base, hour_extraordinary_daytime, hour_extraordinary_nighttime):
-    pass
+    if type(base)==type(list()) or type(hour_extraordinary_daytime)==type(list()) or type(hour_extraordinary_nighttime)==type(list()):
+        return 0
+    if base==str(base) or hour_extraordinary_daytime==str(hour_extraordinary_daytime) or hour_extraordinary_nighttime==str(hour_extraordinary_nighttime):
+        return 0
+    if base<0 or hour_extraordinary_daytime<0 or hour_extraordinary_nighttime<0:
+        return 0
+    sueldo=base
+    horaextradia=hour_extraordinary_daytime*2000
+    horaextranoche=hour_extraordinary_nighttime*(2000*1.3)
+    semanasueldo=sueldo+horaextradia+horaextranoche
+    return(semanasueldo)
