@@ -16,27 +16,29 @@ def get_count_by_char(word):
   counter = Counter(word)    
     
 
-  print(counter["a"])
-  print(counter["b"])
-  print(counter["c"])
-  print(counter["d"])
-  print(counter["e"])
-  print(counter["f"])
-  print(counter["g"])
-  print(counter["h"])
-  print(counter["i"])
-  print(counter["j"])
-  print(counter["k"])
-  print(counter["l"])
-  print(counter["m"])
-  print(counter["m"])
-  print(counter["p"])
-  print(counter["ñ"])
-  print(counter["o"])
-  print(counter["r"])
-  print(counter["s"])
-  print(counter["t"])
-  print(counter["v"])
+  letra1 = counter["a"]
+  letra2 = counter["b"]
+  letra3 = counter["c"]
+  letra4 = counter["d"]
+  letra5 = counter["e"]
+  letra6 = counter["f"]
+  letra7 = counter["g"]
+  letra8 = counter["h"]
+  letra9 = counter["i"]
+  letra10 = counter["j"]
+  letra11 = counter["k"]
+  letra12 = counter["l"]
+  letra13 = counter["m"]
+  letra14= counter["m"]
+  letra15= counter["p"]
+  letra16 = counter["ñ"]
+  letra17 = counter["o"]
+  letra18 = counter["r"]
+  letra19 = counter["s"]
+  letra20= counter["t"]
+  letra21 = counter["v"]
+
+  
     
 
 get_count_by_char("mortimer")
