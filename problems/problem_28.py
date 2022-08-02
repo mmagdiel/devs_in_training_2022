@@ -6,4 +6,5 @@
     dólar = 3.52 soles, 1 dólar = 2.08 marcos, 1 dólar = 2,15 pesos.
 '''
 def get_pesos_donations(suns, dolars, marks):
-    pass
+    
+    

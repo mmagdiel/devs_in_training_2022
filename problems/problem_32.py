@@ -4,4 +4,13 @@
     Diseñe una función que dado una lista de ventas determine el sueldo neto de un vendedor
 '''
 def get_salary(sales):
-    pass
+    
+    sueldo_basico = int (1.000.000)
+
+    for n in sales() :
+        
+        total_ventas = len(sales)
+        total_comision = (total_ventas * 12) / 100
+        sueldo_neto = total_comision + sueldo_basico
+        
+        return sueldo_neto
