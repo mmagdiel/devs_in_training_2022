@@ -8,7 +8,7 @@ class ConvertFootTestCase(unittest.TestCase):
         self.assertEqual(result, excepted)
 
     def test_with_comission_case(self):
-        excepted = 95.7559
+        excepted = 95.756
         result = convert_foot(3.1416)
         self.assertEqual(result, excepted)
 

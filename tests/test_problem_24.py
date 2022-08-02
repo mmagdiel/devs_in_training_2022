@@ -8,12 +8,12 @@ class GetSalaryTestCase(unittest.TestCase):
         self.assertEqual(result, excepted)
 
     def test_with_comission_case(self):
-        excepted = 3100000
+        excepted = 1210000
         result = get_salary(1000000,7000000)
         self.assertEqual(result, excepted)
 
     def test_with_more_comission_case(self):
-        excepted = 6100000
+        excepted = 2190000
         result = get_salary(1000000,17000000)
         self.assertEqual(result, excepted)
 

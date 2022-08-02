@@ -5,10 +5,14 @@
     pero si el trabajador labora más de 40 horas, su valor hora para las horas sobre 40, se
     incrementa en el 60% de su valor.
 '''
-def get_salary(hours,rate,horax,sueldo_total):
-    valor_hora=0
-    horas_trabajadas= 40
-    if valor_hora < 40:
-        print ("Sueldo total")
-    elif horax == (sueldo_total * 60 )/100:
-        resultado= sueldo_total + hours
+def get_salary(hours,rate):
+    if hours==str(hours) or rate==str(rate) or hours<0 or rate<0:
+        return 0
+    salario_total=hours*rate
+    if hours < 40:
+        return salario_total
+    else:
+        hora_extra=hours-40
+        porciento=(rate*60)/100
+        valor_extra=(porciento*hora_extra)+salario_total
+        return valor_extra

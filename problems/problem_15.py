@@ -5,11 +5,9 @@
 from ntpath import realpath
 from numbers import Real
 
-
-def get_taxes_by_amount_and_rate():
-    dolar=int
-    porcentaje=input
-    conversion=dolar*100
-    total= (dolar*porcentaje)/100
-    print("El ",(porcentaje), "porciento de ",(dolar), "es ",(total))
-get_taxes_by_amount_and_rate()
+def get_taxes_by_amount_and_rate(amount, rate):
+    if rate==str(rate) or amount==str(amount):
+        return 0
+    conversion=(amount*100)
+    total= (amount*rate)*100
+    return total
