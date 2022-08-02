@@ -3,4 +3,15 @@
     Calcule los número de fibonacci para un n dado.
 '''
 def get_fibonacci(number):
-    pass
+    
+    if (number == int(number) < 2):
+
+        print (number)
+
+    else:
+
+        Fn = Fn - 1 + Fn - 2
+
+        number = Fn (number -1) + Fn (number - 2)
+
+        return number 

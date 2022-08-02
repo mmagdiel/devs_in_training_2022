@@ -3,4 +3,8 @@
 los valores, la suma de los cuadrados de ellos, el promedio y la desviación estandar ( sum(x-x_barra) / (N-1) )
 '''
 def get_stats(numbers):
-    pass
+    
+    if numbers == list :
+
+        suma = len(numbers) 
+

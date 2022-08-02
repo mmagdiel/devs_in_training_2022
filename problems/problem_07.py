@@ -5,4 +5,16 @@
     Ejemplo de entrada de datos: [(3,53) (3,40) (3,46) (3,52) (4,0)]
 '''
 def calcule_time_and_velocity(lista):
-    pass
+    
+    while (lista()):
+
+        tiempo_segundos = lista[0] * 60 
+
+        velocidad_media = 1.500 / tiempo_segundos
+
+        return tiempo_segundos , velocidad_media
+
+
+
+
+

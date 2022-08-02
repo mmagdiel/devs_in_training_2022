@@ -11,4 +11,5 @@
     fábrica
 '''
 def get_salary(base, hour_extraordinary_daytime, hour_extraordinary_nighttime):
-    pass
+    
+    
