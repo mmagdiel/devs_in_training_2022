@@ -7,5 +7,13 @@
     el último resto hasta que la división sea exacta.
     - El último divisor es el mcd.
 '''
+
+
 def MCD(number_1, number_2):
-    pass
+ if number_2>number_1:number_1,number_2=number_2,number_1 
+ while number_1%number_2!=0:  
+  number_2,number_1=number_1%number_2,number_2  
+ return number_2  
+x= []
+y= []
+return('El MCD de {} y {} es {}.'.format(x,y,MCD(x,y)))

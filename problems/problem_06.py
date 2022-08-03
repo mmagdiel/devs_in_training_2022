@@ -1,5 +1,16 @@
 '''
-    Escribir una función que recibe tres números y descubra si uno de ellos divide el producto de los otros dos.
+Escribir una función que recibe tres números y descubra si uno de ellos divide el producto de los otros dos
 '''
-def is_divide_product_of_the_other(number_1, number_2, number_3):
-    pass
+
+def is_divide_product_of_the_other(n1, n2, n3):
+    n1 = int(input("Ingrese el primer numero"))
+    n2 = int(input("Ingrese el primer numero"))
+    n3 = int(input("Ingrese el primer numero"))
+    if n2 == 0:
+        return("El divisor no puede ser cero")
+    elif n3 == 0:
+        return("El divisor no puede ser cero")
+    else:
+        return(n1/n2)
+    
+return(n1,n2,n3)
