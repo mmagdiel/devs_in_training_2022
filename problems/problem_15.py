@@ -2,5 +2,17 @@
     Diseñar una función que tome dos argumentos, una cantidad en dólares y un porcentaje de impuestos. 
     Retorne el monto del impuesto en centavos.
 '''
+from unittest import result
+
+
+
 def get_taxes_by_amount_and_rate(amount, rate):
-    pass
+    
+
+  if amount == str(amount) or rate == str(rate):
+    return(0)
+  else: 
+   centavos = amount * 100
+   result = centavos * rate
+   return(int(result))
+
